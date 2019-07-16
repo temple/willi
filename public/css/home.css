@@ -1,0 +1,106 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+   align-items: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+    justify-content: space-between;
+    width: auto;
+    margin: 15px;
+    padding: 5px;
+    flex-direction: row;
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+
+header > form {
+    flex-grow: 0.8;
+    margin: 15px;
+    padding: 5px;
+}
+
+header > nav {
+    flex-grow: 0.5;
+}
+header > img{
+    flex-grow: 0.2;
+       align-items: center;
+}
+
+
+body > footer {
+  background:hsl(0, 2%, 26%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+  font-family: "lato-light",sans-serif;
+}
+body > footer > ul>li >a:hover{
+  color: black;
+}
+body > footer > ul>li >a{
+  color: white;
+}
+.imagen{
+    width: 1.7vw;
+}
+.imagen:hover{
+    width: 2.5vw;
+}
+main > img.photos{
+  z-index:-1;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width: 30vw;
+  
+}
+body > footer > ul{
+list-style:none;
+}
+main > img.photos{
+  z-index:-1;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.carousel-indicators{
+  margin: 10px;
+  width: 100%;
+  background-color: #bebebe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .photos{
+    width:20vw;
+    height:20vw;
+display:block;
+margin:auto;
+  }
+body > main>h2{
+text-align:center;
+  font-family: "lato",sans-serif;
+  font-size: 2em;
+}
+  
+ .contenido {
+padding: 80px;
+}
+    .carousel slide{
+  
+  }
