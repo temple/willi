@@ -1,3 +1,3 @@
 <?php
-requiere ('../src/front.php');
+require ('../src/front.php');
 ?>
