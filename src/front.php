@@ -2,8 +2,12 @@
 ini_set('display_errors', true);
 require_once _DIR_.'/../vendor/autoload.php';
 
+use Symfony\Component\HttpFoundation\Request;
 
+$request = Request::createFromGlobals();
 //$ruta = $_SERVER["REQUEST_URI"];
+$ruta = $request->getPathInfo();
+
 switch ($ruta){
 	case "/home":
 		include "view/home.html";
