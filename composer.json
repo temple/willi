@@ -3,4 +3,7 @@
         "symfony/routing": "^4.3",
         "symfony/http-foundation": "^4.3"
     }
+    "require": {
+         "symfony/yaml"
+}
 }
