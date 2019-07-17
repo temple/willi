@@ -1,0 +1,52 @@
+ <body> 
+   <header>
+      <link rel="stylesheet" type="text/css" href="../../public/css/home.css" />
+      <script type="text/javascript" src="../../public/js/home.js"></script>
+
+   <title>www.williportzellan.com Compra-Venta de articulos de porcelana</title>
+         <img src="https://i.ibb.co/Q8D9LM7/willis-portzellan-4cm.jpg" alt="willis-portzellan-4cm" border="0"> 
+   <nav>
+        <ul>
+          <li>"EMPRESA"</li>
+          <li>"BIBLIOTECA"</li>
+          <li>"SUBASTAS"</li>
+          <li>"BLOG"</li>
+          <li>"SHOP"</li>
+          <li><button>"ACCEDER"</button></li>
+        </ul>
+   </nav>
+ </header>
+ 	<link rel="stylesheet" type="text/css" href="pagina-error-heidi.css"/>
+   <title>www.williportzellan.com Compra-Venta de articulos de porcelana</title>
+
+   <div class="centrado">
+   <h3>Oops!</h3><p>Error 404 - Page not found
+   <br>The page you requested could not be found
+                      <br>We´re working on it :)</p> <br><br><br> <br> <br> </class>
+</div>
+   <footer>
+<ul class="contacto "title="zona contacto">
+      <li><b>Contacto</b><address>
+        williporcelana@gmail.com<br>
+        609.030.622
+        </address>
+      </li>
+    </ul>
+  <ul title="zona sigueme">
+        <li><b>Siguenos en:</b>
+      </li>
+         <img class="imagen"alt="Instagram" src="https://www.deliquio.es/wp-content/uploads/2018/10/instagram.png" />
+     <img class="imagen"alt="Linkedin" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" />          
+          <img class="imagen"alt="Google" src="https://images.vexels.com/media/users/3/130654/isolated/preview/3548484154d27db4992215686b21b3c4-google-icono-de-burbuja-by-vexels.png" />
+    </ul>   
+   <ul title="zona descarga">
+     <li><b>Descarga nuestra app:</b></li>     
+                  <img class="imagen"alt="Nuestra app" src="https://cdn2.iconfinder.com/data/icons/ios-7-style-metro-ui-icons/512/MetroUI_Mac_App_Store.png" />
+    </ul>  
+     <ul title="zona legal">
+      <li><a href="#" title="">Faqs</a></li>
+      <li><a class="hola" href="#" title="">Nota legal</a></li>
+      <li><a href="#" title="">Política de cookies</a></li>
+    </ul>
+  </footer>
+   </body>
