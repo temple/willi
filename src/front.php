@@ -1,6 +1,9 @@
 <?php
-ini_set("display_errors", true);
-$ruta = $_SERVER["REQUEST_URI"];
+ini_set('display_errors', true);
+require_once _DIR_.'/../vendor/autoload.php';
+
+
+//$ruta = $_SERVER["REQUEST_URI"];
 switch ($ruta){
 	case "/home":
 		include "view/home.html";
