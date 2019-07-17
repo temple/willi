@@ -1,0 +1,69 @@
+# routes.yaml
+home:
+    path:       /home
+    controller: HomeController::indexAction
+
+
+empresa:
+    path:       /empresa
+    controller: EmpresaController::indexAction
+
+
+biblioteca:
+    path:       /biblioteca
+    controller: BibliotecaController::indexAction
+
+
+subastas:
+    path:       /subastas
+    controller: SubastasController::indexAction
+
+
+blog:
+    path:       /blog
+    controller: BlogController::indexAction
+
+
+shop:
+    path:       /shop
+    controller: ShopController::indexAction
+
+
+signup:
+    path:       /signup
+    controller: SignupController::indexAction
+
+
+login:
+    path:       /login
+    controller: LoginController::indexAction
+
+
+tazas:
+    path:       /tazas
+    controller: TazasController::indexAction
+
+
+platos:
+    path:       /platos
+    controller: PlatosController::indexAction
+
+
+legal:
+    path:       /legal
+    controller: LegalController::indexAction
+
+
+cookies:
+    path:       /cookies
+    controller: CookiesController::indexAction
+
+
+faqs:
+    path:       /faqs
+    controller: FaqsController::indexAction
+
+
+error:
+    path:       /error
+    controller: ErrorController::indexAction
