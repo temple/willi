@@ -18,6 +18,6 @@ function getAction (string $url){
 }
 //La función getAction recibe como parámetro un string llamado url y devuelve un string.
 }
-
+}
 ?>
 
