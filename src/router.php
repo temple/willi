@@ -1,4 +1,5 @@
 <?php
+class routing{
 
 function getController(string $url){
 	return 'controller/backController.php';
@@ -6,6 +7,7 @@ function getController(string $url){
 
 function getAction (string $url){
 	return 'indexAction';
+}
 }
 
 ?>
