@@ -10,7 +10,7 @@ $request = $request->getPathInfo();
 //$Response->send();
 function indexAction($request){
 
-if ($ruta == '/home'){
+if ($request == '/home'){
 	$Response = new BinaryFileResponse(__DIR__.'/principal/view/home.html');
 }
 
