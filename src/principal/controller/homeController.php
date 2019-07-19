@@ -11,9 +11,9 @@ $request = $request->getPathInfo();
 function indexAction($request){
 
 if ($request == '/home'){
-	$Response = new BinaryFileResponse(__DIR__.'/principal/view/home.html');
+	$request = new BinaryFileResponse(__DIR__.'/principal/view/home.html');
 }
 
 
-indexAction($Response);
+indexAction($request);
 ?>
