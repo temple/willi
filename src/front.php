@@ -1,6 +1,4 @@
 <?php
-
-
 ini_set('display_errors', true);
 
 require_once __DIR__.'/../vendor/autoload.php';
@@ -15,28 +13,24 @@ $request = Request::createFromGlobals();
 //$ruta = $_SERVER["REQUEST_URI"];
 //Se crea un objeto request usando globals (la informacion del servidor)
 
-var_dump($request);
-exit;
 
-//$ruta = $request ->getPathInfo()
-$url = 'www.williportzellan.com/home';
+$ruta = $request ->getPathInfo()
+$url = '/home';
 include ('router.php');
+indexAction($request);
 
-$router = null;
+$router = new router();
+$back_controller = $ruter->getController($url);
 //componente de enrutamiento
 //Todo: crear un componente de enrutamiento
-$back_controller = getController($url);
 //controller delegado
 //Todo: conseguir el valor de $back_controller a partir del $router
-//$action = 'indexAction';
-$action = getAction($url);
+$action = 'indexAction';
 
+//$action = getAction($url);
+//include($back_controller);
 
-include($back_controller);
-
-
-$controller = new $class();
-var_dump($controller);
-exit;
-
+//$controller = new $class();
+//var_dump($controller);
+//exit;
 ?>
