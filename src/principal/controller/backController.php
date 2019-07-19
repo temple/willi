@@ -4,19 +4,16 @@
 
 //Se crea un objeto request
 $request = new Request();
-$ruta = $request->getPathInfo();
+$request = $request->getPathInfo();
 //En ruta se guarda l
 
 //$Response->send();
-function indexAction($ruta){
+function indexAction($request){
 
 if ($ruta == '/home'){
 	$Response = new BinaryFileResponse(__DIR__.'/principal/view/home.html');
-}else{
-	$Response = new BinaryFileResponse(__DIR__.'/principal/view/error.html');
 }
 
-}
 
 indexAction($Response);
 ?>
